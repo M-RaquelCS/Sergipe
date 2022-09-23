@@ -1,0 +1,123 @@
+/* estilização do header */
+header {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: var(--white);
+}
+
+header img {
+  width: 3.75rem;
+}
+
+header a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--blue);
+}
+/* estilização do header */
+
+/* estilização do main */
+main {
+  margin-top: 2rem;
+  margin-inline: 5%;
+}
+/* estilização do main */
+
+/* estilização da sessão de inicio*/
+.initial-section img{
+  width: 100%;
+  border-radius: 3.2rem;
+}
+
+.initial-section h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+  
+  margin-bottom: 0.5rem;
+}
+/* estilização da sessão de inicio*/
+
+/* estilização da sessão de historia*/
+
+.history-section {
+  display: grid;
+  justify-items: center;
+}
+
+.history-section h2, .turism-section h2, .table-general-data h2 {
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  
+  margin-top: 2.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.history-section h3 {
+  margin-bottom: 0.5rem;
+}
+
+.history-section p {
+  font-size: 1.15rem;
+  line-height: 1.8rem;
+  text-indent: 30px;
+
+  max-width: 80%;
+}
+
+.history-section p + p {
+  margin-top: 1rem;
+}
+
+/* estilização da sessão de historia*/
+
+/* estilização da sessão de historia*/
+.turism-point {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+.turism-point  + .turism-point  {
+  margin-top: 4rem;
+}
+.turism-point .turism-point-text {
+  display: grid;
+  justify-items: center;
+}
+
+.turism-point .turism-point-text h3 {
+  font-size: 1.5rem;
+}
+
+.turism-point .turism-point-text p {
+  font-size: 1.15rem;
+  line-height: 1.8rem;
+  max-width: 80%;
+}
+
+.turism-point .turism-point-img img {
+  border-radius: 3.2rem;
+}
+/* estilização da sessão de historia*/
+
+/* estilização da tabela*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table tr:nth-child(even){
+  background-color: var(--gray-200);
+}
+
+table td {
+  border: 1px solid var(--gray-300);
+  padding: 8px;
+}
+/* estilização da tabela*/

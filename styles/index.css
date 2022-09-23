@@ -1,0 +1,122 @@
+/* estilização da hero-section */
+.hero-section{
+  height: 70vh;
+  background-image: url('../public/assets/bandeira.jpeg');
+  background-position: center; /* centralizando a imagem */
+  background-repeat: no-repeat; /* fazendo com que a imagem não se repita caso 'sobre' espaço */
+  background-size: cover; /* redimensionar a imagem para que caiba na section*/
+
+  border-radius: 0 0 3.2rem 3.2rem;
+}
+
+.hero-section .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  margin-inline-end: 10rem;
+}
+
+.hero-section .content nav {
+  padding: 2rem;
+}
+
+.hero-section .content nav a {
+  text-decoration: none;
+  color: var(--blue);
+
+
+  font-size: 1.2rem;
+}
+
+.hero-section .content nav a + a {
+  margin-left: 4rem;
+}
+
+.hero-section .text-hero-section {
+  height: 25rem;
+  display: flex;
+  align-items: center;
+
+
+  color: var(--white);
+}
+
+.hero-section .text-hero-section h1{
+  font-size: 3.4rem;
+}
+.hero-section .text-hero-section p{
+  font-size: 1.5rem;
+}
+/* estilização da hero-section */
+
+/* estilização da about-section */
+.details-about-section{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.about-section h1, .map-section h1{
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+
+  margin-top: 2rem;
+}
+
+.details-about-section .text {
+  max-width: 70%;
+}
+.details-about-section .text p{
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+
+  text-align: center;
+}
+
+.details-about-section .text button {
+  padding: .5rem 1rem;
+  margin-top: 1rem;
+
+  font-size: 1.1rem;
+
+  border: none;
+  border-radius: .3rem;
+
+  background-color: var(--blue);
+}
+.details-about-section .text button a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.details-about-section img{
+  border-radius: 3.2rem;
+  max-width: 37.5rem;
+}
+
+.details-about-section .image {
+  display: flex;
+  flex-direction: column;
+}
+/* estilização da about-section */
+
+/* estilização da map-section */
+.map-section .map-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map-section p{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.map-section .map-content .map img {
+  border-radius: 3.2rem;
+}
+/* estilização da map-section */
