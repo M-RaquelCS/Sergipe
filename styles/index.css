@@ -96,7 +96,9 @@
 
 .details-about-section img{
   border-radius: 3.2rem;
+  width: 35rem;
   max-width: 37.5rem;
+  min-width: 10rem;
 }
 
 .details-about-section .image {
