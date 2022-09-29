@@ -105,6 +105,8 @@ main {
 
 .turism-point .turism-point-img img {
   border-radius: 3.2rem;
+  max-width: 55rem;
+  width: 50rem;
 }
 /* estilização da sessão de historia*/
 
