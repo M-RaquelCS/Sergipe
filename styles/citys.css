@@ -107,6 +107,8 @@ main {
   border-radius: 3.2rem;
   max-width: 55rem;
   width: 50rem;
+
+  max-height: 40rem;
 }
 /* estilização da sessão de historia*/
 
